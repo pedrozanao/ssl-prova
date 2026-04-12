@@ -1,0 +1,6 @@
+O servidor HTTP embutido do Python (python3 -m http.server) permite subir rapidamente
+um servidor web para fins de teste. Porém, ele não suporta SSL/TLS nativamente,
+o que significa que não é possível utilizá-lo com HTTPS sem configuração adicional.
+Ao tentar acessar via https://, o navegador recusa a conexão pois não há handshake
+SSL sendo realizado. Esse comportamento demonstra na prática a diferença entre HTTP
+(sem criptografia) e HTTPS (com criptografia via SSL/TLS).
