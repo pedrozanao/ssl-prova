@@ -1,0 +1,7 @@
+A validação do certificado foi realizada de duas formas. Pelo OpenSSL, o comando
+"openssl x509 -in aluno.crt -text -noout" exibe todos os detalhes do certificado:
+emissor, validade, algoritmo utilizado e chave pública. O comando "openssl verify"
+confirmou a integridade do arquivo. Pelo navegador, ao acessar o endereço com HTTPS,
+foi exibido um aviso de segurança indicando que o certificado é auto-assinado e não
+pertence a uma CA reconhecida comportamento esperado e que ilustra a diferença
+entre certificados auto-assinados e certificados emitidos por autoridades confiáveis.
