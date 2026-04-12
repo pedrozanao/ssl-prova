@@ -1,0 +1,6 @@
+O SCP (Secure Copy Protocol) é um protocolo de transferência de arquivos que utiliza
+o SSH como camada de segurança, garantindo que os dados trafeguem criptografados.
+Neste exercício, o certificado aluno.crt foi transferido via SCP para o diretório
+/etc/ssl/certificates do próprio host (127.0.0.1), simulando o envio do certificado
+para um servidor remoto. Para isso, foi necessário instalar e configurar o servidor
+OpenSSH e habilitar o login root.
