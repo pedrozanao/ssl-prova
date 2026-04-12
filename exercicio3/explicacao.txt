@@ -1,0 +1,5 @@
+A chave privada é o elemento mais sensível de uma infraestrutura de chave pública (PKI).
+Ela é gerada com o algoritmo RSA e tamanho de 2048 bits, o que garante segurança
+adequada para uso geral. Essa chave nunca deve ser compartilhada ela é usada para
+assinar o certificado e para descriptografar dados enviados ao servidor. O arquivo
+gerado (aluno.key) fica protegido com permissões restritas no sistema.
