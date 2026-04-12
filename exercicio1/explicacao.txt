@@ -1,0 +1,2 @@
+O comando "openssl version" confirma que a ferramenta está instalada e exibe a versão
+instalado via commando apt.
