@@ -1,0 +1,6 @@
+O CSR é uma requisição de certificado que contém
+as informações do solicitante (país, estado, organização, Common Name) e a chave
+pública correspondente à chave privada gerada anteriormente. Em um ambiente real,
+esse arquivo seria enviado a uma Autoridade Certificadora (CA) para que ela emitisse
+um certificado confiável. Neste exercício, usamos o próprio CSR para gerar um
+certificado auto-assinado.
