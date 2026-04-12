@@ -1,0 +1,2 @@
+O diretório /etc/ssl/certificates é o local padrão no Linux para armazenar
+certificados digitais. criado para melhor organização.
