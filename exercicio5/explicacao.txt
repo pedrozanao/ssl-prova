@@ -1,0 +1,2 @@
+O certificado auto-assinado é gerado a partir do CSR usando a própria chave privada
+como assinatura, sem envolvimento de uma Autoridade Certificadora externa. Esse tipo de certificado é adequado para ambientes de teste, mas navegadores o consideram não confiável em produção, pois não há uma CA reconhecida validando a identidade do servidor.
