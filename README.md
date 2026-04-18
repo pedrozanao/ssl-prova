@@ -11,7 +11,7 @@ Pedro Afonso Zanão
 - Ferramenta principal: OpenSSL
 
 ## IP utilizado
-10.0.2.15 (interface enp0s3 - rede NAT do VirtualBox)
+192.168.56.1 (Local da máquina)
 
 ## Dificuldades Encontradas
 - O login root via SSH estava desabilitado por padrão no Debian 13,
